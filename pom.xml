@@ -11,6 +11,8 @@
     <modules>
         <module>2.1.1.mybtis-xml-use</module>
         <module>3.1.1.mybatis-annotation-use</module>
+        <module>5.1.1.mybatis.generator</module>
+        <module>6.1.1.mybatis.senior.query</module>
     </modules>
 
 
