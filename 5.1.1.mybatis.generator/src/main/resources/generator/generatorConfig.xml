@@ -16,7 +16,7 @@
         </commentGenerator>
 
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://192.168.153.131:3306/springboot"
+                        connectionURL="jdbc:mysql://192.168.37.128:3306/weather"
                         userId="root"
                         password="abc123##">
         </jdbcConnection>
@@ -30,7 +30,7 @@
 
         <javaClientGenerator type="XMLMAPPER" targetPackage="chapter05.practise.org.dao"  targetProject="src\main\java"/>
 
-        <table tableName="user">
+        <table tableName="weather">
             <generatedKey column="id" sqlStatement="MySql"/>
         </table>
     </context>
